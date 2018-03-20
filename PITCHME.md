@@ -4,21 +4,28 @@
 
 ## What is Docker
 
+Containers vs VMs
+
+
+slide 2
+
+
+slide 3
 ---
 
 ## When and Why to Use Docker
 
-### Alternatives
+If you are using docker in Production
 
-### Use Cases
+### Alternatives
+Vagrant
 
 ---
 
 ## Problems solved with Docker
-
----
-
-## Issues with using Docker
+"It works in my environment"
+Disparity between production and dev
+Infrastructure as code
 
 ---
 
