@@ -1,4 +1,6 @@
-## Local Development with Docker
+## Local Development with
+
+![Docker](http://1000logos.net/wp-content/uploads/2017/07/Docker-Logo.png)
 
 ---
 
