@@ -16,9 +16,22 @@ https://www.docker.com/what-container
 
 ![Shipping container](https://theloadstar.co.uk/wp-content/uploads/%C2%A9-Roza-_l_20426071.jpg)
 
-+++
+---
 
-![Seeds](http://www.robertalynch.com/wp-content/uploads/2017/04/new-seeds-1320x564.jpg)
+## Key Benefits
+
+ - Configuration Simplification
+ - Pipeline Management (CI/CD)
+ - App Isolation
+ - Rapid Deployment
+ - Closer to Production Environment
+
+
+https://www.airpair.com/docker/posts/8-proven-real-world-ways-to-use-docker
+
+---
+
+## Important Definitions
 
 +++
 
@@ -32,20 +45,29 @@ Container: lightweight, stand-alone, executable package of a piece of software t
 
 <img src="https://www.docker.com/sites/default/files/Container%402x.png" width="450"> <img src="https://www.docker.com/sites/default/files/VM%402x.png" width="450">
 
----
++++
 
-## Key Benefits
+Image: an executable package that includes everything needed to run an application--the code, a runtime, libraries, environment variables, and configuration files.
 
- - Configuration Simplification
- - Pipeline Management (CI/CD)
- - App Isolation
- - Rapid Deployment
- - Closer to Production Environment
+Java analogy: image = class, container = instance
+
++++
+
+Explore and share images on [Docker Hub](https://hub.docker.com/explore/)
 
 
- https://www.airpair.com/docker/posts/8-proven-real-world-ways-to-use-docker
-
----
+| Rank | Repository | Stars | | Rank | Repository | Stars | 
+| ---- | :--------: | ----: | | ---- | :--------: | ----: | 
+| 1    | ubuntu     | 2,007 | | 1    | ubuntu     | 2,007 | 
+| 2    | centos     | 1,164 | | 2    | centos     | 1,164 | 
+| 3    | nginx      | 1,163 | | 3    | nginx      | 1,163 | 
+| 4    | redis      |   957 | | 4    | redis      |   957 | 
+| 5    | node       |   891 | | 5    | node       |   891 | 
+| 6    | postgres   |   889 | | 6    | postgres   |   889 | 
+| 7    | mysql      |   885 | | 7    | mysql      |   885 | 
+| 8    | mongo      |   796 | | 8    | mongo      |   796 | 
+| 9    | debian     |   573 | | 9    | debian     |   573 | 
+| 10   | jenkins    |   508 | | 10   | jenkins    |   508 | 
 
 ## Important Features
 
@@ -65,11 +87,16 @@ Create networks of containers and manage deployment config using docker-compose
 
 ---
 
-##Begin Demo
+## Demo
 
 +++
 
+### Prerequisites:
 
+ - Computer with internet access
+ - docker and docker-compose installed
+
++++
 
 
 ---
