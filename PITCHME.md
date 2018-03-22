@@ -56,18 +56,18 @@ Java analogy: image = class, container = instance
 Explore and share images on [Docker Hub](https://hub.docker.com/explore/)
 
 
-| Rank | Repository | Stars | | Rank | Repository | Stars | 
-| ---- | :--------: | ----: | | ---- | :--------: | ----: | 
-| 1    | ubuntu     | 2,007 | | 1    | ubuntu     | 2,007 | 
-| 2    | centos     | 1,164 | | 2    | centos     | 1,164 | 
-| 3    | nginx      | 1,163 | | 3    | nginx      | 1,163 | 
-| 4    | redis      |   957 | | 4    | redis      |   957 | 
-| 5    | node       |   891 | | 5    | node       |   891 | 
-| 6    | postgres   |   889 | | 6    | postgres   |   889 | 
-| 7    | mysql      |   885 | | 7    | mysql      |   885 | 
-| 8    | mongo      |   796 | | 8    | mongo      |   796 | 
-| 9    | debian     |   573 | | 9    | debian     |   573 | 
-| 10   | jenkins    |   508 | | 10   | jenkins    |   508 | 
+| Rank | Repository | Stars | 
+| ---- | :--------: | ----: | 
+| 1    | ubuntu     | 2,007 | 
+| 2    | centos     | 1,164 | 
+| 3    | nginx      | 1,163 | 
+| 4    | redis      |   957 | 
+| 5    | node       |   891 | 
+| 6    | postgres   |   889 | 
+| 7    | mysql      |   885 | 
+| 8    | mongo      |   796 | 
+| 9    | debian     |   573 | 
+| 10   | jenkins    |   508 | 
 
 ## Important Features
 
