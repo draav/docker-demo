@@ -21,7 +21,7 @@ Docker is a tool designed to make it easier to create, deploy, and run applicati
 - It works on my machine 
 - Running microservices locally is hard |
 - It takes weeks for my code to get to production |
-- All my time is spent on environment config instead of application code |
+- All my time is spent on environment configuration instead of application code |
 
 +++
 
@@ -34,15 +34,11 @@ Docker is a tool designed to make it easier to create, deploy, and run applicati
 
 ---
 
-**Image**: a read-only template composed of layered file systems used to share common files and create Docker container instances
+**Container**: an isolated environment that includes everything needed to run it
 
 +++
 
-**Container**: an isolated and secured shipping container created from an image that can be run, started, stopped, moved, and deleted
-
-+++
-
-![Container vs VM](images/Docker-vs-VM.png)
+**Image**: a read-only template used to create Docker container instances
 
 +++
 
@@ -58,6 +54,10 @@ Explore and share images on [Docker Hub](https://hub.docker.com/explore/)
 | postgres   | 4.7K  |
 | node       | 5.3K  |
 
++++
+
+![Container vs VM](images/Docker-vs-VM.png)
+
 ---
 
 ## Demo
@@ -72,11 +72,17 @@ docker run hello-world
 
 +++
 
-Run an ubuntu container with an interactive terminal 
+**volume**: specially designated persistent directory on the host machine that a docker container can read/write to
 
 ```bash
-docker run -it ubuntu
+docker run -it -v data:/data ubuntu bash
 ```
+
+**-v**: bind mount a volume
+
++++
+
+![bind-mounts vs volumes](images/Volume-Types.png)
 
 +++
 
@@ -87,22 +93,6 @@ docker run -d -p 8080:80 nginx
 ```
 
 **-p**: publishes a containers port to the host
-
-+++
-
-Persist data using volumes
-
-```bash
-docker run -it -v data:/data ubuntu bash
-```
-
-**-v**: bind mount a volume
-
-+++
-
-**volume**: specially designated directory within one or more containers that bypasses Docker's storage driver and interacts directly with the host file system
-
-![bind-mounts vs volumes](images/Volume-Types.png)
 
 +++?code=compose-app/docker-compose.yml&lang=yaml&title=Use docker-compose to configure container
 
@@ -120,10 +110,10 @@ docker-compose up -d
 ## Key Benefits
 
 - Configuration Simplification
-- Pipeline Management (CI/CD)
 - App Isolation
-- Rapid Deployment
 - Closer to Production Environment
+- Rapid Deployment
+- Pipeline Management (CI/CD)
 
 ---
 
