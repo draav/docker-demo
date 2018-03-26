@@ -1,18 +1,14 @@
 ## Local Development with
 
-
+![Docker Logo](images/Docker-Logo.png)
 
 ---
 
 ## What is Docker?
 
-![Docker Logo](images/Docker-Logo.png)
-
 +++
 
 Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.
-
-https://www.docker.com/what-container
 
 +++
 
@@ -27,22 +23,22 @@ https://www.docker.com/what-container
 - It takes weeks for my code to get to production |
 - All my time is spent on environment config instead of application code |
 
----
++++
 
 ## How does Docker help?
 
-- Simplifies building, shipping, and running apps
-- Provides a 'containerization' system for code |
+- Simplifies **build**ing, **ship**ping, and **run**ning apps
+- Provides a **containerization** system for code |
 - Runs natively on Linux and Windows Server |
 - Runs with on Windows or Mac using Docker CE |
 
+---
+
+**Image**: a read-only template composed of layered file systems used to share common files and create Docker container instances
+
 +++
 
-Image: a read-only template composed of layered file systems used to share common files and create Docker container instances
-
-+++
-
-Container: an isolated and secured shipping container created from an image that can be run, started, stopped, moved, and deleted
+**Container**: an isolated and secured shipping container created from an image that can be run, started, stopped, moved, and deleted
 
 +++
 
@@ -90,6 +86,8 @@ Start a server using an nginx container
 docker run -d -p 8080:80 nginx
 ```
 
+**-p**: publishes a containers port to the host
+
 +++
 
 Persist data using volumes
@@ -97,6 +95,12 @@ Persist data using volumes
 ```bash
 docker run -it -v data:/data ubuntu bash
 ```
+
+**-v**: bind mount a volume
+
++++
+
+**volume**: specially designated directory within one or more containers that bypasses Docker's storage driver and interacts directly with the host file system
 
 +++?code=compose-app/docker-compose.yml&lang=yaml&title=Use docker-compose to configure container
 
