@@ -62,6 +62,8 @@ Explore and share images on [Docker Hub](https://hub.docker.com/explore/)
 | postgres   | 4.7K  |
 | node       | 5.3K  |
 
+---
+
 ## Demo
 
 +++
@@ -95,6 +97,11 @@ Persist data using volumes
 ```bash
 docker run -it -v data:/data ubuntu bash
 ```
+
++++?code=compose-app/docker-compose.yml&lang=yaml&title=Use docker-compose to configure container
+
++++
+
 Run a brand new project with no setup using `docker-compose`
 
 ```bash
