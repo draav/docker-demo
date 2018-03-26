@@ -27,8 +27,8 @@ Docker is a tool designed to make it easier to create, deploy, and run applicati
 
 ## How does Docker help?
 
-- Simplifies **build**ing, **ship**ping, and **run**ning apps
-- Provides a **containerization** system for code |
+- Simplifies building, shipping, and running apps
+- Provides a containerization system for code |
 - Runs natively on Linux and Windows Server |
 - Runs with on Windows or Mac using Docker CE |
 
@@ -101,6 +101,8 @@ docker run -it -v data:/data ubuntu bash
 +++
 
 **volume**: specially designated directory within one or more containers that bypasses Docker's storage driver and interacts directly with the host file system
+
+![bind-mounts vs volumes](images/Volume-Types.png)
 
 +++?code=compose-app/docker-compose.yml&lang=yaml&title=Use docker-compose to configure container
 
