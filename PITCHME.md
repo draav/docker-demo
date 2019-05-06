@@ -12,13 +12,13 @@ Docker is a tool designed to make it easier to create, deploy, and run applicati
 
 +++
 
-![Shipping container](images/Shipping-Barge.png)
+![Shipping container](images/Shipping-Barge.jpeg)
 
 ---
 
 ## The Challenges
 
-- It works on my machine 
+- It works on my machine
 - Running microservices locally is hard |
 - It takes weeks for my code to get to production |
 - All my time is spent on environment configuration instead of application code |
